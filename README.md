@@ -1,2 +1,2 @@
-# HK2021_AutoDocking_Teensy
-Code for our Teensy 3.6 boards used on the Candela AutoDocking project
+# HK2021_AutoDocking_TeensyTesting
+Code for initial testing of our Teensy 3.6 boards used on the Candela AutoDocking project
