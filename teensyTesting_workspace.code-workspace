@@ -7,6 +7,26 @@
 		{
 			"name": "directToTask_withTiming",
 			"path": "directToTask_withTiming"
+		},
+		{
+			"name": "FlexCan_Example_Client",
+			"path": "FlexCan_Example_Client"
+		},
+		{
+			"name": "FlexCAN_Example_Server",
+			"path": "FlexCAN_Example_Server"
+		},
+		{
+			"name": "freeRTOS_blink_Example",
+			"path": "freeRTOS_blink_Example"
+		},
+		{
+			"name": "FreeRTOS_DirectToTask_Testing",
+			"path": "FreeRTOS_DirectToTask_Testing"
+		},
+		{
+			"name": "testing_RTOSwithCAN_Server",
+			"path": "testing_RTOSwithCAN_Server"
 		}
 	]
 }
