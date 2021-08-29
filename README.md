@@ -9,7 +9,9 @@ Code for initial testing of our Teensy 3.6 boards used on the Candela AutoDockin
 ## INITIAL ENVIRONMENT SETUP:
 - Beging by downloading 
   * asdfdf
-## CONCLUSIONS
+## SUMMARY OF INCLUDED FILES:
+
+## CONCLUSIONS:
 - FreeRTOS is janky on the Teensy and there isn't much of a solution unless we want to work real hard to port ourselves or try to get it to work in MCUXpresso
 - We can proceed in a couple ways...
   1. Stay the course - be weary of printing floats and hope no issues arise
