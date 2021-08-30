@@ -21,7 +21,7 @@ Code and discussion of initial testing and environment setup for Teensy 3.6 boar
 ## SUMMARY OF INCLUDED FILES:
 
 - NOTE: I tried to comment through most of main scripts themselves, but ran out of time...let me know if anything needs clarrication.
-- 
+
  ### 1. CANTest_Example_Edit: 
    - Basically just a copy of the included FlexCAN library example , but wihth my comments.
    - Uses CAN0 to send and CAN1 to receive on the same teensy 3.6 board.
@@ -43,7 +43,7 @@ Code and discussion of initial testing and environment setup for Teensy 3.6 boar
    
  ### 4. FlexCAN_Example_Server:
    - Pretty much same idea as FlexCAN_Example_Client, but that *sends* the messages instead.
-   - 
+   
  ### 5. freeRTOS_blink_Example:
    - Basically the standard example included with the FreeRTOS_ARM library, but with a few things moved around and my comments.
    - Good example of using binary semaphores for context switching rather than "direct to task" notifications.
