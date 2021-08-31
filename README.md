@@ -29,7 +29,7 @@ PlatformIO documentation on teensy boards:  https://docs.platformio.org/en/lates
 
  FreeRTOS in PlatformIO...
  1. In the PlatformIO extension home page, go to Libraries/Registry and then search for FreeRTOS_ARM and include it with your project
- 2. To include timers, same thing as Arduino. You will find 
+ 2. To include timers, same thing as Arduino. You will find the file in the file explorer to the left
  3. Add the #include <timers.h> line into "FreeRTOS_ARM.h" file if you want to use software timers. You will find the "FreeRTOS_ARM.h" file in the explorer to the left...project/.pio/libdeps/src/FreeRTOS_ARM.h
  4. You must do this to EVERY new project (may be a more advanced way of tweaking paths, but I dont know it yet)
 
@@ -96,8 +96,9 @@ Another series (again, not our teensy though): https://www.youtube.com/watch?v=P
   1. FreeRTOS in teensduino environment produces hard fault when printing float in threads
     * https://forum.pjrc.com/threads/40915-Serial-println-Float-doesn-t-run
     * https://forum.pjrc.com/threads/49211-Does-teensy-3-5-3-6-support-freeRTOS
-  2. Doesnt include timers.h standard...robustness is questionalble
-  3. Even creator of port claims that trying to get it to work properly is a lost cause an he no longer supports it
+    * https://forum.pjrc.com/threads/46636-RTOS-no-longer-usable-with-Teensy
+  2. Doesnt include timers.h standard...robustness is questionable without more testing
+  3. Even creator of port claims that trying to get it to work properly is to tough and he no longer supports
   4. No debugger on board and getting one to work requires de-soldering the board
     * Thus its hard to really know whats going on...logic analyser would be nice
     * Lots of effort to get it to work... https://mcuoneclipse.com/2017/04/29/modifying-the-teensy-3-5-and-3-6-for-arm-swd-debugging/
