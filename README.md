@@ -7,14 +7,14 @@ Code and discussion of initial testing and environment setup for Teensy 3.6 boar
 - Got FreeRTOS to kind of work, but the available port no longer has support and is buggy...discussion at end.
 
 ## SETUP:
- ### Base Teensyduino w/ Platform IO:
+ ### Teensyduino and Platform IO IDE:
  Basically, just follow instructions here: https://wiki.uiowa.edu/display/teensymacos/Getting+Started#GettingStarted-Option1:ArduinoIDE
  1. Download Arduino IDE for respective OS https://www.arduino.cc/en/software
  2. Download Teensyduino bootloader and follow instructions on site: https://www.pjrc.com/teensy/td_download.html (make sure to copy over udev.rules per the link if using linux!!)
  3. Download Visual Studio Code: https://code.visualstudio.com/ (NOT to be confused with standard "Visual Studio"
  4. In VS Code, go to extensions and add PlatformIO (make sure you have python 3.6 + installed and have the default path set to this!)
 
-When using PlatformIO, coding is pretty much the same as Arduino, you just have to make a new project, call the script to run "main", and #include <Arduino.h> as a header (though it should automatically do this for you).
+When using PlatformIO, coding is pretty much the same as Arduino, you just have to make a new project, name the main script "main", and #include <Arduino.h> as a header (though it should automatically do this for you if you set up the project with arduino being the selected framework).
 
 API for teensyduino: https://www.pjrc.com/teensy/teensyduino.html
 PlatformIO documentation on teensy boards:  https://docs.platformio.org/en/latest/platforms/teensy.html
